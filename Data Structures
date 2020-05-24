@@ -1,0 +1,17 @@
+#Assigning Elements to different lists.
+num = [1,3,5,7,9] 
+num.append(11) 
+print(num)
+
+Output :[1, 3, 5, 7, 9, 11]
+
+#Accessing elements from a tuple
+mytuple = ('Abhiram','Yadu','Prithvi','Mithun','Nived' ) 
+print(mytuple[4])
+
+Output :Nived
+
+#Deleting different dictionary elements
+mydict = {"Maths":"Jeevan","Physics":"Sanjay","Computer":"Sarath"} 
+del mydict["Physics"] 
+print(mydict)
